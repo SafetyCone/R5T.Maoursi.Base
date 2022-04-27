@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Maoursi.Base", "R5T.Mao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Maoursi.Base.Construction", "R5T.Maoursi.Base.Construction\R5T.Maoursi.Base.Construction.csproj", "{51CC7209-026B-46F2-885B-DF450F447754}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{3D96314F-A6BF-4262-8DC4-A2CE37732F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{51CC7209-026B-46F2-885B-DF450F447754}.Release|x64.Build.0 = Release|Any CPU
 		{51CC7209-026B-46F2-885B-DF450F447754}.Release|x86.ActiveCfg = Release|Any CPU
 		{51CC7209-026B-46F2-885B-DF450F447754}.Release|x86.Build.0 = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|x64.ActiveCfg = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|x64.Build.0 = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF23F4DC-D56B-48E5-8F11-C2EF93F7F8F8} = {3D96314F-A6BF-4262-8DC4-A2CE37732F91}
 	EndGlobalSection
 EndGlobal
